@@ -1,0 +1,1 @@
+multiset的特性以及用法和 set 完全相同，唯一的差别在于它允许键值重复，因此它的插入操作采用的是底层机制是 RB-tree 的 insert_equal() 而非 insert_unique()。
