@@ -1,0 +1,1 @@
+补充一点，使用default和自己手写一个空的构造函数还有一点区别，会影响该类是有user define constructor还是default constructor，在进行trivial 或pod这些判断时有区别
